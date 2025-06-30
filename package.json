@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "docker compose up --build"
+    "start": "podman compose up --build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC"
 }
+
