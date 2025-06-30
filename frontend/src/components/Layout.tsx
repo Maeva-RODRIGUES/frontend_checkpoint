@@ -3,11 +3,11 @@ import { Header } from "./Header";
 
 export function PageLayout() {
   return (
-    <body>
+    <div className="min-h-screen flex flex-col bg-base-200">
       <Header />
-      <main>
+      <main className="flex-1 p-4">
         <Outlet />
       </main>
-    </body>
+    </div>
   );
 }
